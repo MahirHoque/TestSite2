@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Prism Effect Slider | Demo 1</title>
+		<title>Prism Effect Slider | Demo 3</title>
 		<meta name="description" content="Prism slider using canvas globalCompositeOperation" />
 		<meta name="keywords" content="prism, images, globalCompositeOperation, canvas, demo, web design, slider" />
 		<meta name="author" content="Claudio Calautti for Codrops" />
@@ -16,7 +16,7 @@
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 	</head>
-	<body class="demo-1">
+	<body class="demo-3">
 		<div class="container">
 			<header class="codrops-header">
 				<h1>Prism Effect Slider</h1>
@@ -25,9 +25,9 @@
 					<a class="codrops-icon codrops-icon--drop" href="http://tympanus.net/codrops/?p=23787" title="Back to the article"><span>Back to the Codrops article</span></a>
 				</div>
 				<nav class="codrops-demos">
-					<a class="current-demo" href="index.html">Diamond</a>
+					<a href="index.html">Diamond</a>
 					<a href="index2.html">Penrose Triangle</a>
-					<a href="index3.html">Impossible Cube</a>
+					<a class="current-demo" href="index3.html">Impossible Cube</a>
 				</nav>
 			</header>
 			<div class="content">
@@ -35,26 +35,34 @@
 
 				<div class="cache">
 					<!-- masks -->
-					<img src="img/masks/prism-a.svg">
-					<img src="img/masks/prism-b.svg">
-					<img src="img/masks/prism-c.svg">
+					<img src="img/masks/cube-a.svg">
+					<img src="img/masks/cube-b.svg">
+					<img src="img/masks/cube-c.svg">
 					<!-- photos -->
-					<img src="img/bird-a.jpg">
-					<img src="img/bird-b.jpg">
-					<img src="img/bird-c.jpg">
-					<img src="img/bird-d.jpg">
+					<img src="img/nature-a.jpg">
+					<img src="img/nature-b.jpg">
+					<img src="img/nature-c.jpg">
+					<img src="img/nature-d.jpg">
 				</div>
 
 				<div class="wrapper">
-					<div class="prism-slider">
+					<div class="prism-slider prism-slider--left">
 						<ul class="navigation"></ul>
 					</div>
-					<div class="copy">
+					<div class="copy copy--left">
 						<article>
-							<h2>Strange Birds</h2>
-							<p>Every bird tells a tale. This is the story of four bird characters and their adventures.</p>
+							<h2>Nature Reveals</h2>
 							<p>
-								Spend any time watching your gardens birds and you'll soon discover a host of different behaviours. It might be a Blackbird preening its feathers, a group of Starlings whirling about the sky in a pre-roosting flock or a Greenfinch showing a Blue Tit who is boss.
+								Our physical world, respect and explore,
+								Where water meets land; a beautiful shore.
+							</p>
+							<p>
+								Mountains we conquer, look down in awe,
+								If you're an artist, make sure you draw.
+								Nature exciting, adventurously new,
+								Much more to see, than a sky that is blue.
+								It offers so much, open your eyes,
+								Hope of today, with every sunrise.
 							</p>
 						</article>
 					</div>
@@ -80,6 +88,6 @@
 		<script src="js/utils/rAF.js"></script>
 		<script src="js/utils/easing.js"></script>
 		<script src="js/PrismSlider.js"></script>
-		<script src="js/slideshow1.js"></script>
+		<script src="js/slideshow3.js"></script>
 	</body>
 </html>
