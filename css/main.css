@@ -5,40 +5,44 @@ body {
 
 .homescreen-content {
 	background-color:#141414;
-	padding:0% 10%;
 	width:100vw;
 	height:100vh;
 	color:#ffffff;
 }
 
 .homescreen-content .title {
-	width:500px;
+	width:auto;
 	position:absolute;
-	top:30%;
-	left:30%;
-
+	top:20%;
+	left:3%;
 	margin:auto;
+}
+
+.homescreen-content .title p {
+	width:500px;
 }
 
 
 .homescreen-content .title h1 {
 	color:#ffffff;
-	font-size:99px;
-	line-height:78px;
-	-webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	font-size:190px;
+	line-height:150px;
+	animation: tracking-in-expand 3.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	background-image:url('https://images.unsplash.com/photo-1495298599282-d8920eb5009b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=239e649ce5452c86f3e6083f3e3e92d0&auto=format&fit=crop&w=1534&q=80');
+    background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: cover;
 }
 
 .homescreen-content .title p {
 	margin-top:-40px;
 	color:#ffffff;
-	-webkit-animation: fade-in-top 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
     animation: fade-in-top 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 .homescreen-content .material-icons {
 	font-size:99px;
 	margin: -25px 0 0 -25px;
-	-webkit-animation: jello-horizontal 0.9s both;
-   	animation: jello-horizontal 0.9s both;
+   	animation: fade-in-top 1.6s;
 }
